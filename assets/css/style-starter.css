@@ -1,15 +1,5 @@
 @charset "UTF-8";
 
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
---*/
-/*!
- * Bootstrap v5.0.1 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -19456,7 +19446,7 @@ ul.single-info li p {
   height: 4px;
   overflow: hidden;
   font-size: 0.75rem;
-  background-color: var(--bg-grey);
+  background-color: #000;
   border-radius: 0.25rem;
 }
 
@@ -19471,7 +19461,7 @@ ul.single-info li p {
   transition: width 0.6s ease;
 }
 
-.w3l-progress .progress-bar.gradient-1:before,
+/* .w3l-progress .progress-bar.gradient-1:before,
 .w3l-progress .progress-bar.gradient-2:before,
 .w3l-progress .progress-bar.gradient-3:before,
 .w3l-progress .progress-bar.gradient-4:before {
@@ -19479,9 +19469,9 @@ ul.single-info li p {
   width: 28px;
   border: 1px solid;
   opacity: .3;
-}
+} */
 
-.w3l-progress .progress-bar.gradient-1:after,
+/* .w3l-progress .progress-bar.gradient-1:after,
 .w3l-progress .progress-bar.gradient-2:after,
 .w3l-progress .progress-bar.gradient-3:after,
 .w3l-progress .progress-bar.gradient-4:after {
@@ -19489,7 +19479,7 @@ ul.single-info li p {
   width: 13px;
   border: 3px solid;
   background-color: var(--bg-color);
-}
+} */
 
 .w3l-progress .progress-bar.gradient-1 {
   color: #61fded;
@@ -19497,7 +19487,7 @@ ul.single-info li p {
   background-image: linear-gradient(-224deg, #0d8abc, #61fded);
 }
 
-.w3l-progress .progress-bar.gradient-1:after,
+/* .w3l-progress .progress-bar.gradient-1:after,
 .w3l-progress .progress-bar.gradient-1:before {
   content: "";
   position: absolute;
@@ -19505,7 +19495,7 @@ ul.single-info li p {
   top: 90%;
   border-radius: 50%;
   transform: translate(50%, -50%);
-}
+} */
 
 .w3l-progress .progress-bar.gradient-2 {
   color: #eece90;
@@ -19569,7 +19559,7 @@ ul.single-info li p {
 .w3l-progress .info1 h6.progress-tittle {
   display: grid;
   grid-template-columns: 1fr auto;
-  width: 80%;
+  width: 100%;
 }
 
 .w3l-progress .info2 h6.progress-tittle {
@@ -19581,13 +19571,13 @@ ul.single-info li p {
 .w3l-progress .info3 h6.progress-tittle {
   display: grid;
   grid-template-columns: 1fr auto;
-  width: 60%;
+  width: 100%;
 }
 
 .w3l-progress .info4 h6.progress-tittle {
   display: grid;
   grid-template-columns: 1fr auto;
-  width: 85%;
+  width: 100%;
 }
 
 /* //skills */
@@ -21123,6 +21113,23 @@ ul.social-icons-contact li a {
     font-size: 24px;
     line-height: 34px;
   }
+}
+
+.greska{
+  color: #ff0000;
+}
+.prikaziGresku{
+  display: block;
+}
+.sakrijGresku{
+  display: none;
+}
+.uspesno{
+  color: #354F8E;
+  padding-top: 10px;
+}
+.sakrijUspesno{
+  display: none;
 }
 
 /* //contact */
