@@ -19146,8 +19146,9 @@ h3.title-style {
 .w3l-banner {
   display: grid;
   align-items: center;
-  min-height: 100vh;
-  background: url(../images/banner2.jpg) no-repeat center;
+  /* min-height: 100vh; */
+  height: 800px;
+  background: url(../images/kiki2.jpg) no-repeat center;
   -ms-background-size: cover;
   background-size: cover;
   position: relative;
@@ -19258,6 +19259,9 @@ h3.title-style {
     font-size: 20px;
     line-height: 30px;
   }
+  .w3l-banner{
+    background: right;
+  }
 }
 
 @media (max-width: 370px) {
@@ -19273,6 +19277,9 @@ h3.title-style {
 
   .banner-left p {
     font-size: 16px;
+  }
+  .w3l-banner{
+    background: right;
   }
 }
 
